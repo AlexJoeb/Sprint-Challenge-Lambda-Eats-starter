@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import { ReactComponent as ArrowUp } from '../../Assets/ArrowUp.svg';
 import { ReactComponent as ArrowDown } from '../../Assets/ArrowDown.svg';
+import { ReactComponent as Toggle } from '../../Assets/Toggle.svg';
 
 import { Link } from 'react-router-dom';
 
@@ -200,7 +201,7 @@ function Pizza() {
                     </div>
                     <div className='pizza__form__section--choices pizza__form__subs--choices'>
                         <div>
-                            <input type='checkbox' id='glutenfreecrust' name='glutenfreecrust' value='glutenfreecrust' />
+                            <Toggle onClick={prevState => ({...prevState, glutenFree: !prevState.glutenFree})} />
                             <label htmlFor='glutenfreecrust'>Gluten Free Crust</label>
                         </div>
                     </div>
