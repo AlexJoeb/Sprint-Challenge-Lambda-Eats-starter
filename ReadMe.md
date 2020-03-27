@@ -22,7 +22,7 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ### Task 1: Set Up The Project With Git
 
-Follow these steps to set up and work on your project:
+Follow these steps to set up 1and work on your project:
 
 - [ ] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.

@@ -1,0 +1,11 @@
+%nohighlight{
+    &:active, &:focus{
+        outline: none;
+    }
+}
+
+%hover{
+    &:hover{
+        cursor: pointer;
+    }
+}
